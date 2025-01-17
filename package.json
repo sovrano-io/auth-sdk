@@ -1,0 +1,36 @@
+{
+  "name": "@sovrano-io/auth-sdk",
+  "version": "1.0.13",
+  "description": "Sovrano wallet auth sdk for koinos dapps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sovrano-io/auth-sdk"
+  },
+  "keywords": [
+    "koinos",
+    "sovrano",
+    "veive",
+    "typescript",
+    "library"
+  ],
+  "author": "sovrano.io",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "koilib": "^8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
