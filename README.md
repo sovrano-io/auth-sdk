@@ -102,7 +102,7 @@ To authorize an operation in Sovrano, a transaction is created with **two key op
 Both **validator modules** (for pre-authorization) and **executor modules** (for carrying out the operation) are installed within specific *scopes* in the user’s account. These scopes define when and under what conditions each module is activated. Validators are responsible for defining and enforcing rules on whether a particular transaction should proceed, while executor modules carry out the approved actions.
 
 > For more details on modules, visit the official documentation:  
-> [Veive Core Modules - Validation Any](https://docs.veive.io/veive-docs/framework/core-modules/mod-validation-any)
+> [Veive Core Modules - Allowance](https://docs.veive.io/veive-docs/framework/core-modules/mod-allowance)
 
 After constructing the transaction, it is signed by the user and redirected back to the dApp, which then decodes and broadcasts it on the blockchain.
 

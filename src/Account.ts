@@ -19,7 +19,7 @@ export class Account {
         validationContractId?: string
     }) {
         const validation_module_contract = new Contract({
-            id: props.validationContractId ?? getConfig().modValidationAnyContractId,
+            id: props.validationContractId ?? getConfig().modAllowanceContractId,
             provider: this.provider
         });
     
