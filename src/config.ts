@@ -5,7 +5,7 @@ export type configType = {
 
 let config : configType = {
     baseUrl: process.env.AUTH_SDK_REDIRECT_URL || "https://auth.sovrano.app",
-    modAllowanceContractId: process.env.MOD_ALLOWANCE_CID || "17wzMtYyyJFeft4sQLT7btR7MKSMBV7iBM"
+    modAllowanceContractId: process.env.MOD_ALLOWANCE_CID || "15c3q4u6AJSYaeW1SuSSzMKTF7iyka2bm3"
 };
 
 export function setConfig(newConfig: configType) {
