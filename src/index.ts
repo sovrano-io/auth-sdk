@@ -6,3 +6,4 @@ export * from "./Connector";
 export * from "./Signup";
 export * from "./Account";
 export * from "./Register";
+export * from "./Broadcast";
