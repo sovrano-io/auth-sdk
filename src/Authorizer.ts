@@ -14,6 +14,9 @@ export type AuthorizerRequest = {
 
     /** The address of the user */
     address: string
+
+    /** The finality of the request */
+    mode: "sign"|"broadcast"
 }
 
 /**

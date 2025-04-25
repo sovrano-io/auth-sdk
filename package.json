@@ -1,6 +1,6 @@
 {
   "name": "@sovrano-io/auth-sdk",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Sovrano wallet auth sdk for koinos dapps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
